@@ -1,0 +1,175 @@
+
+body {
+    Font-Family: 'Work Sans', Sans-Serif;
+    font-weight:normal;
+    max-width: 100%;
+    background-color: #D2D3D9;
+    overflow-x: hidden;
+    color: #2C118C;
+}
+img {
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit:cover; 
+}
+
+ul > li {
+    display: inline-block;
+    padding-left: 3px;
+    /* You can also add some margins here to make it look prettier */
+}
+
+.container {
+    height: 750px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-color: blue;
+    border-style: dashed;
+    display: block;
+}
+
+/* Header Section */
+
+#header {
+    border-color: blue;
+    border-style: dashed;
+    width: 100%;
+    height: 64px;
+    background-color: #BF9D8A;
+}
+
+.logo {
+    float: left;
+    padding-left: 10px;
+    font-size: larger;
+    vertical-align: middle;
+    
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.nav{
+    float: right;
+    border-color: blue;
+    border-style: dashed;
+    padding-right: 10px;
+    font-size:large;
+}
+
+/* Body Section */
+
+/*first banner section*/
+
+.first-banner{
+    background-color: #7B89A6;
+    z-index: 10;
+}
+
+.L-column{
+    width: 35%;
+    float: left;
+    border-color: red;
+    border-style: dashed;
+    Font-Family: 'Work Sans', Sans-Serif;
+    Font-Size: 45px;
+    height: 100%;
+    display: block;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.R-column {
+    width: 60%;
+    float: right;
+    border-color: purple;
+    border-style: dashed;
+}
+
+/* Interest section */
+
+.section-title{
+    height: 64px;
+    width: 100%;
+    border-color: red;
+    border-style: dashed;
+    text-align: center;
+    background-color: #7B89A6;
+}
+
+.tiles{
+    padding-top: 70px;
+    border-color: red;
+    border-style: dashed;
+    
+}
+.image-container {
+    width: 300px;
+    height: 200px;
+    border-color: red;
+    border-style: dashed;
+    margin-right: auto;
+    margin-left: auto;
+    Font-Family: 'Work Sans', Sans-Serif;
+  }
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  /* About me section*/
+
+  .about-title{
+      height: auto;
+      border-color: rgb(39, 41, 189);
+      border-style: dashed;
+      position: relative;
+  }
+
+  .about-descrip{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+    padding-top: 20px;
+    line-height: 2em;
+    position: relative;
+  }
+
+.personal-pic{
+    transition: 1s;
+}
+
+  .personal-pic img:last-child {
+    display: none;  
+  }
+  .personal-pic:hover img:last-child {
+    display: block;  
+  }
+  .personal-pic:hover img:first-child {
+    display: none;  
+  }
+
+  /*Video Section */
+
+  .vid-container{
+      width: 100%;
+      height: 100%;
+      padding-left: auto;
+      padding-right: auto;
+      background-color: black;
+  }
+
+  iframe{
+    display: block;
+    margin: 0 auto;
+  }
